@@ -1,0 +1,86 @@
+/* :root { 
+} */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  transition: background-color 0.3s, color 0.3s;
+  margin: 0;
+}
+
+:root {
+  --color-text: #292929;
+  --accet-green: #00b068;
+  --bg-color: #f0f0f0;
+  --light-grey: #e4e5e6;
+  --light-accent: #14c57c;
+  --bg-skills: #bcdfd1;
+  --border-color: #ccc;
+}
+@font-face {
+  font-family: 'Impact';
+  src: url('../fonts/impact.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+@media screen and (min-width: 360px) {
+  .container {
+    max-width: 360px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+a {
+  transition: all 155ms ease-in-out;
+}
+img:hover {
+  transform: scale(1.01);
+  transition: transform 0.3s;
+}
