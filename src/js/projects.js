@@ -35,7 +35,7 @@ const projects = [
   {
     imgSrc: project2,
     imgSrcSet: `${project2} 1x, ${project2Retina} 2x`,
-    alt: 'mimino-website',
+    alt: 'green-harvest-online-store',
     tech: 'React, JavaScript, Node JS, Git',
     description: 'green harvest online store',
     link: 'https://boreddarkness.github.io/GreenHarvest/',
@@ -46,15 +46,15 @@ const projects = [
     alt: 'vyshyvanka',
     tech: 'React, JavaScript, Node JS, Git',
     description: 'English exellence website',
-    link: '#',
+    link: 'https://denisolid.github.io/English-Exellence/',
   },
   {
     imgSrc: project4,
     imgSrcSet: `${project4} 1x, ${project4Retina} 2x`,
-    alt: 'green-harvest-online-store',
+    alt: 'mimino-website',
     tech: 'React, JavaScript, Node JS, Git',
     description: 'mimino website',
-    link: '#',
+    link: 'https://denisolid.github.io/Mimino-Project/',
   },
   {
     imgSrc: project5,
@@ -62,7 +62,7 @@ const projects = [
     alt: 'wallet-webservice',
     tech: 'React, JavaScript, Node JS, Git',
     description: 'power pulse webservice',
-    link: '#',
+    link: 'https://denisolid.github.io/Power_Pulse-Project/',
   },
   {
     imgSrc: project6,

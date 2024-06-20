@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/Command-Projekt-JS/",
+    "build": "vite build --base=/PortfolioCV/",
     "preview": "vite preview"
   },
   "devDependencies": {
