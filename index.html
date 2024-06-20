@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/Command-Projekt-JS/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/accordion-js@3.3.4/dist/accordion.min.css"
+    />
+    
+    <script type="module" crossorigin src="/Command-Projekt-JS/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/Command-Projekt-JS/assets/vendor-6587d213.js">
+    <link rel="stylesheet" href="/Command-Projekt-JS/assets/vendor-1fb87061.css">
+    <link rel="stylesheet" href="/Command-Projekt-JS/assets/index-ab7b1aaf.css">
+  </head>
+  <body class="light-theme">
+    <header id="header">
+  <div class="headers container">
+    <a
+      href="https://maksymovcharenko.github.io/Command-Projekt-JS/"
+      class="logo"
+      >Lloyd<span class="logo-green">Jefferson.</span></a
+    >
+    <label class="switch">
+      <input type="checkbox" id="theme-toggle" />
+      <span class="slider"></span>
+    </label>
+    <nav class="nav-menu">
+      <ul class="menu-list">
+        <li class="menu-item"><a href="#aboutme">About me</a></li>
+        <li class="menu-item"><a href="#projects">Projects</a></li>
+        <li class="menu-item"><a href="#works">Contacts</a></li>
+      </ul>
+    </nav>
+    <button type="button" class="mobile-menu-btn" data-mobile-open>
+      <svg class="mobile-menu-icon" width="22" height="16" id="icon_mobile">
+        <use href="/Command-Projekt-JS/assets/icons-71aede43.svg#icon-mob-menu"></use>
+      </svg>
+    </button>
+  </div>
+</header>
+
+    <section class="hero" id="hero">
+  <div class="heros container">
+    <div class="hero-title-container animation">
+      <h1 class="hero-title">
+        Hello, I am
+        <span class="greentext">Fullstack developer</span>
+      </h1>
+      <img
+        src="/Command-Projekt-JS/assets/img1x-desktop-ava-7cd96f5d.jpg"
+        srcset="/Command-Projekt-JS/assets/img1x-desktop-ava-7cd96f5d.jpg 1x, /Command-Projekt-JS/assets/img2x-desktop-ava-b8cf7b7b.jpg 2x"
+        alt="hero-avatars"
+        width="592"
+        height="444"
+        class="hero-avatars"
+      />
+    </div>
+    <div class="hero-cont-desription animation">
+      <div class="hero-link-design">
+        <svg
+          class="hero-arrow"
+          width="30"
+          height="16"
+          viewBox="0 0 30 16"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 7C0.447715 7 -4.82823e-08 7.44772 0 8C4.82823e-08 8.55228 0.447715 9 1 9L1 7ZM29.7071 8.7071C30.0976 8.31658 30.0976 7.68341 29.7071 7.29289L23.3431 0.92893C22.9526 0.538406 22.3195 0.538406 21.9289 0.92893C21.5384 1.31945 21.5384 1.95262 21.9289 2.34314L27.5858 8L21.9289 13.6569C21.5384 14.0474 21.5384 14.6805 21.9289 15.0711C22.3195 15.4616 22.9526 15.4616 23.3431 15.0711L29.7071 8.7071ZM1 9L29 9L29 7L1 7L1 9Z"
+            fill="#00B068"
+          />
+        </svg>
+        <a href="#projects"
+          ><p class="hero-design-link">Order the project</p>
+          <div class="hero-design-container"></div
+        ></a>
+      </div>
+
+      <p class="hero-description">
+        I work with people all over the world to create
+        <span class="greentext">impressive</span> and
+        <span class="greentext">functional websites</span> that reflect each
+        client’s unique personality.
+      </p>
+    </div>
+  </div>
+  <div class="social-container">
+    <ul class="social-list">
+      <li class="social-item">
+        <a
+          href="https://www.instagram.com/goitclub/"
+          class="social-link"
+          target="_blank"
+          >Instagram</a
+        >
+      </li>
+      <li class="social-item">
+        <a
+          href="https://www.facebook.com/goITclub/"
+          class="social-link"
+          target="_blank"
+          >Facebook</a
+        >
+      </li>
+      <li class="social-item">
+        <a
+          href="https://www.linkedin.com/school/goit-start-your-career-in-it"
+          class="social-link"
+          target="_blank"
+          >Linkedin</a
+        >
+      </li>
+      <li class="social-item">
+        <a
+          href="https://maksymovcharenko.github.io/Command-Projekt-JS"
+          class="social-link"
+          target="_blank"
+          >GitHub</a
+        >
+      </li>
+    </ul>
+  </div>
+</section>
+
+    <section class="about-me" id="aboutme">
+  <div class="info container">
+    <h2 class="about-me-title animation">
+      About
+      <span class="about-me-title-span">me</span>
+    </h2>
+    <div class="about-me-container">
+      <div class="my-img">
+        <img
+          srcset="/Command-Projekt-JS/assets/about-me-img-ba152e67.jpg 1x, /Command-Projekt-JS/assets/about-me-img-2x-75169bb0.jpg 2x"
+          src="/Command-Projekt-JS/assets/about-me-img-ba152e67.jpg"
+          alt="my-picture"
+          width="320"
+          class="about-me-img animation"
+        />
+      </div>
+
+      <div class="my-bio">
+        <h3 class="info-title animation">BIO</h3>
+
+        <p class="about-me-txt animation">
+          I'm Lloyd Jefferson, a talented programmer specializing in software
+          development. My expertise spans various programming languages and
+          technologies, and I am dedicated to continually enhancing my skills. I
+          thrive on seeking unconventional and creative solutions to problems,
+          leveraging a high level of analytical skills to effectively tackle
+          even the most challenging tasks.<br />
+          <br />Adaptable to both independent and team-oriented work, I
+          collaborate seamlessly with colleagues, exchanging ideas and finding
+          optimal solutions. My professional maturity enables me to navigate
+          challenges and stressful situations with a calm demeanor, maintaining
+          a consistently high quality of work. Committed to self-improvement, I
+          actively engage in studying new technologies and practices to stay
+          current with the latest innovations in the field.
+        </p>
+      </div>
+    </div>
+
+    <div class="my-advantages">
+      <div class="my-education">
+        <h3 class="info-title animation">EDUCATION</h3>
+
+        <ul class="about-me-list">
+          <li class="about-me-item">
+            <p class="about-me-txt animation">
+              2018 - 2019 / Frontend Development Diploma, GoIT IT School, New
+              York
+            </p>
+          </li>
+          <li class="about-me-item">
+            <p class="about-me-txt animation">
+              2019 - 2020 / Advanced Web Development Certificate, GoIT IT
+              School, New York
+            </p>
+          </li>
+          <li class="about-me-item">
+            <p class="about-me-txt animation">
+              2020 - 2022 / Advanced Blender Animation Techniques, Udemy
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="my-role">
+        <h3 class="info-title animation">ROLE</h3>
+        <ul class="about-me-list">
+          <li class="about-me-item">
+            <p class="about-me-txt animation">Frontend development</p>
+          </li>
+          <li class="about-me-item">
+            <p class="about-me-txt animation">HeadlessCMS, Wordpress</p>
+          </li>
+          <li class="about-me-item">
+            <p class="about-me-txt animation">Blender (enjoy)</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="skillstech" class="skillstech">
+  <div class="skillstech-container">
+    <h2 class="visually-hidden">Tech Skills</h2>
+    <div class="skills-inner">
+      <ul class="skills-list">
+        <li class="skills-line-top">HTML/CSS</li>
+        <li class="skills-line-top">JavaScript</li>
+        <li class="skills-line-top">React</li>
+        <li class="skills-line-top">Node. js</li>
+        <li class="skills-line-top">React Native</li>
+        <li class="skills-line-top">Typescript</li>
+      </ul>
+      <ul class="skills-list">
+        <li class="skills-line-top">HTML/CSS</li>
+        <li class="skills-line-top">JavaScript</li>
+        <li class="skills-line-top">React</li>
+        <li class="skills-line-top">Node. js</li>
+        <li class="skills-line-top">React Native</li>
+        <li class="skills-line-top">Typescript</li>
+      </ul>
+    </div>
+    <div class="skills-accen">
+      <ul class="skills-list">
+        <li class="skills-line-bott">JavaScript</li>
+        <li class="skills-line-bott">React</li>
+        <li class="skills-line-bott">Node. js</li>
+        <li class="skills-line-bott">React Native</li>
+        <li class="skills-line-bott">Typescript</li>
+        <li class="skills-line-bott">HTML/CSS</li>
+      </ul>
+      <ul class="skills-list">
+        <li class="skills-line-bott">JavaScript</li>
+        <li class="skills-line-bott">React</li>
+        <li class="skills-line-bott">Node. js</li>
+        <li class="skills-line-bott">React Native</li>
+        <li class="skills-line-bott">Typescript</li>
+        <li class="skills-line-bott">HTML/CSS</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+    <section class="my-projects" id="projects">
+  <div class="container container-projects">
+    <h2 class="projects-title">MY<span class="span-title">PROJECTS</span></h2>
+    <ul class="projects-ul"></ul>
+    <button class="btn-load-more">LOAD MORE</button>
+  </div>
+</section>
+
+    <section class="benefits">
+  <div class="container benefits-container">
+    <h2 class="benefits-title animation">
+      <span class="benefits-title-span">Benefits</span> of working with me
+    </h2>
+    <ul class="benefits-list animation">
+      <li class="benefits-item">
+        <div class="benefits-icon-bg">
+          <svg class="benefits-icon" width="24" height="24">
+            <use xlink:href="#icon-user"></use>
+          </svg>
+        </div>
+        <h3 class="benefits-titles">Expertise</h3>
+        <p class="benefits-text">
+          With extensive experience in development, I have a deep understanding
+          of programming and website development.
+        </p>
+      </li>
+      <li class="benefits-item">
+        <div class="benefits-icon-bg">
+          <svg class="benefits-icon" width="24" height="24">
+            <use xlink:href="#icon-message-chat"></use>
+          </svg>
+        </div>
+        <h3 class="benefits-titles">Communication</h3>
+        <p class="benefits-text">
+          Understanding your needs and wants is my priority and I am always
+          available for discussions and open to corrections.
+        </p>
+      </li>
+      <li class="benefits-item">
+        <div class="benefits-icon-bg">
+          <svg class="benefits-icon" width="24" height="24">
+            <use xlink:href="#icon-brush"></use>
+          </svg>
+        </div>
+        <h3 class="benefits-titles">Art</h3>
+        <p class="benefits-text">
+          Thanks to my creative nature, I am ready to accept challenges and help
+          you bring your ideas to life.
+        </p>
+      </li>
+      <li class="benefits-item">
+        <div class="benefits-icon-bg">
+          <svg class="benefits-icon" width="24" height="24">
+            <use xlink:href="#icon-hourglass"></use>
+          </svg>
+        </div>
+        <h3 class="benefits-titles">Urgent execution</h3>
+        <p class="benefits-text">
+          I understand how important time is to you. Ready to work quickly and
+          efficiently, without reducing the quality of work.
+        </p>
+      </li>
+    </ul>
+    <div class="benefits-bg-container"><div class="benefits-bg"></div></div>
+  </div>
+  <!-- icons pack -->
+  <svg
+    aria-hidden="true"
+    style="position: absolute; width: 0; height: 0; overflow: hidden"
+    version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+  >
+    <defs>
+      <symbol id="icon-brush" viewBox="0 0 32 32">
+        <path
+          fill="none"
+          stroke="#00b068"
+          style="stroke: var(--color1, #00b068)"
+          stroke-linejoin="round"
+          stroke-linecap="round"
+          stroke-miterlimit="4"
+          stroke-width="2.6667"
+          d="M17.037 20.001l-5.037-5.037"
+        ></path>
+        <path
+          fill="none"
+          stroke="#00b068"
+          style="stroke: var(--color1, #00b068)"
+          stroke-linejoin="round"
+          stroke-linecap="round"
+          stroke-miterlimit="4"
+          stroke-width="2.6667"
+          d="M2.667 29.332c2.667 0 6.144 0.456 7.966-1.367s1.822-4.777 0-6.6c-1.822-1.822-4.777-1.822-6.6 0s0 5.3-1.367 7.967z"
+        ></path>
+        <path
+          fill="none"
+          stroke="#00b068"
+          style="stroke: var(--color1, #00b068)"
+          stroke-linejoin="round"
+          stroke-linecap="round"
+          stroke-miterlimit="4"
+          stroke-width="2.6667"
+          d="M10.667 21.332c-0.655-0.655-0.983-0.983-1.168-1.326-0.444-0.823-0.425-1.818 0.050-2.623 0.198-0.336 0.538-0.651 1.218-1.28l13.157-12.183c1.159-1.073 2.959-1.038 4.075 0.078s1.151 2.917 0.078 4.075l-12.183 13.157c-0.63 0.68-0.944 1.020-1.28 1.218-0.805 0.475-1.8 0.495-2.623 0.050-0.343-0.185-0.671-0.513-1.326-1.168z"
+        ></path>
+      </symbol>
+      <symbol id="icon-hourglass" viewBox="0 0 32 32">
+        <path
+          fill="none"
+          stroke="#00b068"
+          style="stroke: var(--color1, #00b068)"
+          stroke-linejoin="round"
+          stroke-linecap="round"
+          stroke-miterlimit="4"
+          stroke-width="2.6667"
+          d="M24.217 2.667h-16.434c-0.617 0-1.117 0.5-1.117 1.117 0 3.554 1.412 6.962 3.925 9.475l1.626 1.626c0.161 0.161 0.242 0.242 0.3 0.32 0.352 0.473 0.352 1.121 0 1.594-0.058 0.077-0.139 0.158-0.3 0.32l-1.626 1.626c-2.513 2.513-3.925 5.921-3.925 9.475 0 0.617 0.5 1.117 1.117 1.117h16.434c0.617 0 1.117-0.5 1.117-1.117 0-3.554-1.412-6.962-3.925-9.475l-1.626-1.626c-0.161-0.161-0.242-0.242-0.3-0.32-0.353-0.473-0.353-1.121 0-1.594 0.058-0.077 0.139-0.158 0.3-0.32l1.626-1.626c2.513-2.513 3.925-5.921 3.925-9.475 0-0.617-0.5-1.117-1.117-1.117z"
+        ></path>
+      </symbol>
+      <symbol id="icon-message-chat" viewBox="0 0 32 32">
+        <path
+          fill="none"
+          stroke="#00b068"
+          style="stroke: var(--color1, #00b068)"
+          stroke-linejoin="round"
+          stroke-linecap="round"
+          stroke-miterlimit="4"
+          stroke-width="2.6667"
+          d="M8.126 14.972c-0.083-0.534-0.126-1.081-0.126-1.638 0-5.891 4.807-10.667 10.737-10.667s10.737 4.776 10.737 10.667c0 1.331-0.245 2.605-0.693 3.779-0.093 0.244-0.14 0.366-0.161 0.461s-0.029 0.161-0.031 0.257c-0.002 0.097 0.011 0.205 0.037 0.42l0.537 4.36c0.058 0.472 0.087 0.708 0.009 0.88-0.069 0.15-0.191 0.27-0.343 0.335-0.173 0.075-0.409 0.040-0.879-0.029l-4.247-0.623c-0.222-0.033-0.333-0.049-0.434-0.048-0.1 0.001-0.169 0.008-0.267 0.028s-0.225 0.068-0.477 0.163c-1.178 0.441-2.454 0.683-3.787 0.683-0.558 0-1.105-0.042-1.64-0.124M10.175 29.333c3.953 0 7.158-3.283 7.158-7.333s-3.205-7.333-7.158-7.333c-3.953 0-7.158 3.283-7.158 7.333 0 0.814 0.13 1.597 0.369 2.329 0.101 0.309 0.152 0.464 0.168 0.57 0.017 0.11 0.020 0.172 0.014 0.284-0.006 0.107-0.033 0.227-0.086 0.469l-0.815 3.682 3.993-0.545c0.218-0.030 0.327-0.045 0.422-0.044 0.1 0.001 0.153 0.006 0.252 0.026 0.093 0.019 0.232 0.067 0.51 0.165 0.731 0.258 1.516 0.398 2.332 0.398z"
+        ></path>
+      </symbol>
+      <symbol id="icon-user" viewBox="0 0 32 32">
+        <path
+          fill="none"
+          stroke="#00b068"
+          style="stroke: var(--color1, #00b068)"
+          stroke-linejoin="round"
+          stroke-linecap="round"
+          stroke-miterlimit="4"
+          stroke-width="2.6667"
+          d="M26.667 28c0-1.861 0-2.791-0.23-3.548-0.517-1.705-1.851-3.039-3.556-3.556-0.757-0.23-1.687-0.23-3.548-0.23h-6.667c-1.861 0-2.791 0-3.548 0.23-1.705 0.517-3.038 1.851-3.556 3.556-0.23 0.757-0.23 1.687-0.23 3.548"
+        ></path>
+        <path
+          fill="none"
+          stroke="#00b068"
+          style="stroke: var(--color1, #00b068)"
+          stroke-linejoin="round"
+          stroke-linecap="round"
+          stroke-miterlimit="4"
+          stroke-width="2.6667"
+          d="M16 16c3.314 0 6-2.686 6-6s-2.686-6-6-6c-3.314 0-6 2.686-6 6s2.686 6 6 6z"
+        ></path>
+      </symbol>
+    </defs>
+  </svg>
+</section>
+
+    <section class="FAQ faq-bg container" id="FAQ">
+  <div class="faq-body">
+    <h2 class="headline">
+      <span class="text-wrapper"
+        >frequently asked <span class="greentext">question</span></span
+      >
+    </h2>
+    <ul class="accordion-container">
+      <li class="ac js-enabled is-active">
+        <div class="bg">
+          <h3 class="ac-header">
+            <button type="button" class="ac-trigger">
+              What programming languages are most often used in your project?
+            </button>
+          </h3>
+          <div class="ac-panel">
+            <p class="ac-text">
+              In the field of web development, there are various technologies
+              and programming languages. Typically, this includes a combination
+              of frontend (client side) and backend (server side) languages.
+            </p>
+          </div>
+        </div>
+      </li>
+
+      <li class="ac">
+        <div class="bg">
+          <h3 class="ac-header">
+            <button type="button" class="ac-trigger">
+              What are the deadlines for the project?
+            </button>
+          </h3>
+          <div class="ac-panel">
+            <p class="ac-text">
+              The terms of project implementation depend to a large extent on a
+              number of factors, such as the scope of the project, its
+              complexity, and the availability of resources. Determining exact
+              deadlines is a difficult task, and it usually occurs during the
+              planning phase of the project.
+            </p>
+          </div>
+        </div>
+      </li>
+
+      <li class="ac">
+        <div class="bg">
+          <h3 class="ac-header">
+            <button type="button" class="ac-trigger">
+              What payment methods do you accept?
+            </button>
+          </h3>
+          <div class="ac-panel">
+            <p class="ac-text">
+              Payment through credit and debit cards such as Visa, MasterCard,
+              specialized electronic payment systems such as PayPal, as well as
+              payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+            </p>
+          </div>
+        </div>
+      </li>
+
+      <li class="ac">
+        <div class="bg">
+          <h3 class="ac-header">
+            <button type="button" class="ac-trigger">
+              How can I contact you?
+            </button>
+          </h3>
+          <div class="ac-panel">
+            <p class="ac-text">
+              In the field of web development, there are various technologies
+              and programming languages. Typically, this includes a combination
+              of frontend (client side) and backend (server side) languages.
+            </p>
+          </div>
+        </div>
+      </li>
+
+      <li class="ac">
+        <div class="bg">
+          <h3 class="ac-header">
+            <button type="button" class="ac-trigger">
+              Do you provide advice or support?
+            </button>
+          </h3>
+          <div class="ac-panel">
+            <p class="ac-text">
+              The terms of project implementation depend to a large extent on a
+              number of factors, such as the scope of the project, its
+              complexity, and the availability of resources. Determining exact
+              deadlines is a difficult task, and it usually occurs during the
+              planning phase of the project.
+            </p>
+          </div>
+        </div>
+      </li>
+
+      <li class="ac">
+        <div class="bg">
+          <h3 class="ac-header">
+            <button type="button" class="ac-trigger">
+              What does the process of developing a software product look like
+              from idea to implementation?
+            </button>
+          </h3>
+          <div class="ac-panel">
+            <p class="ac-text">
+              Payment through credit and debit cards such as Visa, MasterCard,
+              specialized electronic payment systems such as PayPal, as well as
+              payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    <section class="review-section">
+  <div class="container">
+    <h2 class="reviews-title">Reviews</h2>
+    <span class="loader"></span>
+    <div class="swiper">
+      <ul class="swiper-wrapper"></ul>
+      <div class="btns-reviews">
+        <button type="button" class="swiper-btn prev">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M20 12H4.00001"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M10 18L4 12L10 6"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <button type="button" class="swiper-btn next">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M4 12H20"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M14 6L20 12L14 18"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="works">
+  <div class="works container">
+    <h2 class="works-title">
+      let's<span class="greentext"> work together</span>
+    </h2>
+    <div class="works-contents">
+      <div class="works-contacts">
+        <h4 class="works-text">
+          Contact me to transform your ideas into exceptional solutions.
+        </h4>
+
+        <ul class="works-contacts-list" id="contacts">
+          <li class="works-contacts-item">
+            <svg class="works-icon" width="24" height="24">
+              <use href="/Command-Projekt-JS/assets/icons-71aede43.svg#icon-telefon"></use>
+            </svg>
+            <a class="addresss-link" href="tel:+380904567890" target="_blank"
+              >+38 090 456 78 90</a
+            >
+          </li>
+          <li class="works-contacts-item">
+            <svg class="works-icon" width="24" height="24">
+              <use href="/Command-Projekt-JS/assets/icons-71aede43.svg#icon-e-mail"></use>
+            </svg>
+            <a
+              class="addresss-link"
+              href="mailto:lloydjefferson@gmail.com"
+              target="_blank"
+              >lloydjefferson@gmail.com</a
+            >
+          </li>
+          <li class="works-contacts-item">
+            <svg class="works-icon" width="24" height="24">
+              <use href="/Command-Projekt-JS/assets/icons-71aede43.svg#icon-map"></use>
+            </svg>
+            <a class="address-link" href="#" target="_blank">USA, New York</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="works-contacts-form" id="contactForm">
+        <form class="feedback-form" autocomplete="off">
+          <div class="input-box">
+            <input
+              class="works-input-email"
+              type="email"
+              name="email"
+              placeholder="Your email*"
+              required
+              id="email-text"
+            />
+            <label class="checkmark-label">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEsSURBVHgBrVM9TsMwFP5skMiYI4QTUAYkNtQToEyMzQadKCcAbuCtHduRqfQGPQASOYKPEDZPfbzYThqrsRqpfYvtF38/7/kFODHEQWY9SyHNKwgFnzJ/rQSo5Nwn8oWOE2ymE9BOcTpFv17lSObqkGDzzKpCYZBvUeBxvtoTrF8yCPqNK/c5ubpGrirpfbwPAGvuw7fbEt81s3onfWJ0FEwYs9B2bwKTern0p1GoZCMLwFI88NrtUdZxEMQWZG7tswVgWvbcbRxY1czvC8hEY2fGQJLGwVbAExBWrpHNN3wwSV2ajim74WpLMFwbVaEAk0TB5AaqJciXnBBvGBok25G+aJNfPyWe7v54oO7ZXhJXFlMGL5pMz8/EUwm2L+im87za9gmJqqcP54x/ujRr3AxNAzQAAAAASUVORK5CYII="
+                class="checkmark"
+                alt="check"
+              />
+            </label>
+            <div class="form-supporting-text">Invalid email, try again</div>
+          </div>
+
+          <textarea
+            class="works-input-message"
+            id="messageInput"
+            name="message"
+            placeholder="Message"
+          ></textarea>
+
+          <button class="works-button" type="submit" id="sendMessageBtn">
+            Send message
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <footer class="footer">
+  <div class="container footer-container">
+    <div class="content-footer">
+      <a
+        href="https://maksymovcharenko.github.io/Command-Projekt-JS/"
+        target="_blank"
+        ><p class="logo-footer">
+          Lloyd<span class="logo-span">Jefferson.</span>
+        </p></a
+      >
+
+      <ul class="soc-links-footer">
+        <li class="soc-link-footer">
+          <a
+            href="https://www.instagram.com/goitclub/"
+            target="_blank"
+            class="inst-fb-linked-git-footer"
+          >
+            Instagram</a
+          >
+        </li>
+
+        <li class="soc-link-footer">
+          <a
+            href="https://www.facebook.com/goITclub/"
+            target="_blank"
+            class="inst-fb-linked-git-footer"
+          >
+            Facebook</a
+          >
+        </li>
+
+        <li class="soc-link-footer">
+          <a
+            href="https://www.linkedin.com/school/goit-start-your-career-in-it/"
+            target="_blank"
+            class="inst-fb-linked-git-footer"
+          >
+            Linkedin</a
+          >
+        </li>
+
+        <li class="soc-link-footer">
+          <a
+            href="https://github.com/MaksymOvcharenko/Command-Projekt-JS"
+            target="_blank"
+            class="inst-fb-linked-git-footer"
+          >
+            GitHub</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div class="copyright">
+      <p class="copyright-text">
+        &copy; Copyright 2024. Made by LloydJefferson
+      </p>
+    </div>
+  </div>
+</footer>
+
+    <div class="mobile-menu container" data-mobile id="mobile-menus">
+  <div class="header-mobile">
+    <a href="../index.html" class="logo"
+      >Lloyd<span class="logo-green">Jefferson.</span></a
+    >
+    <button type="button" class="mobile-menu-btns" data-mobile-close>
+      <svg class="mobile-menu-icon" width="32" height="32" id="icon_close">
+        <use href="/Command-Projekt-JS/assets/icons-71aede43.svg#icon-close-menu"></use>
+      </svg>
+    </button>
+  </div>
+
+  <div class="mobile-bg">
+    <nav class="nav-menu-mobile">
+      <ul class="menu-list-mobile">
+        <li class="menu-item"><a href="#aboutme">About me</a></li>
+        <li class="menu-item"><a href="#projects">Projects</a></li>
+        <li class="menu-item"><a href="#works">Contacts</a></li>
+      </ul>
+    </nav>
+    <div class="switch-mobiles">
+      <label class="switch-mobile">
+        <input type="checkbox" id="theme-toggle-mobile" />
+        <span class="slider-mobile"></span>
+      </label>
+    </div>
+  </div>
+</div>
+
+    <div class="modal-container">
+  <div class="backdrop">
+    <div class="modal">
+      <button type="button" class="modal-close-btn" id="close-modal-btn">
+        <svg class="modal-close-icon" width="24" height="24">
+          <use href="/Command-Projekt-JS/assets/icons-71aede43.svg#bbb"></use>
+        </svg>
+      </button>
+
+      <h2 class="modal-title">Thank you for your interest in cooperation!</h2>
+      <p class="modal-description">
+        The manager will contact you shortly to discuss further details and
+        opportunities for cooperation. Please stay in touch.
+      </p>
+    </div>
+  </div>
+</div>
+
+    
+  </body>
+</html>
