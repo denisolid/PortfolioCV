@@ -25,6 +25,15 @@ import 'izitoast/dist/css/iziToast.min.css';
 
 const projects = [
   {
+    imgSrc: project1,
+    imgSrcSet: `${project1} 1x, ${project1Retina} 2x`,
+    alt: 'movie-service',
+    tech: 'React, JavaScript, Node JS, Git',
+    description: 'movie-service',
+    link: 'https://goit-react-hw-05-omega-rust.vercel.app/',
+  },
+
+  {
     imgSrc: project2,
     imgSrcSet: `${project2} 1x, ${project2Retina} 2x`,
     alt: 'green-harvest-online-store',
