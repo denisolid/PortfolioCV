@@ -25,14 +25,6 @@ import 'izitoast/dist/css/iziToast.min.css';
 
 const projects = [
   {
-    imgSrc: project1,
-    imgSrcSet: `${project1} 1x, ${project1Retina} 2x`,
-    alt: 'power-pulse-webservice',
-    tech: 'React, JavaScript, Node JS, Git',
-    description: 'wallet webservice',
-    link: '#',
-  },
-  {
     imgSrc: project2,
     imgSrcSet: `${project2} 1x, ${project2Retina} 2x`,
     alt: 'green-harvest-online-store',
