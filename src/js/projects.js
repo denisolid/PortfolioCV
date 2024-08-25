@@ -29,7 +29,7 @@ const projects = [
     imgSrcSet: `${project1} 1x, ${project1Retina} 2x`,
     alt: 'movie-service',
     tech: 'React, JavaScript, Node JS, Git',
-    description: 'movie-service',
+    description: 'movie search app',
     link: 'https://goit-react-hw-05-omega-rust.vercel.app/',
   },
 
