@@ -25,6 +25,15 @@ import 'izitoast/dist/css/iziToast.min.css';
 
 const projects = [
   {
+    imgSrc: project10,
+    imgSrcSet: `${project10} 1x, ${project10Retina} 2x`,
+    alt: 'Interview Ai Coach',
+    tech: 'React, JavaScript, Supabase, Git, Tailwind CSS',
+    description: 'interview ai coach',
+    link: 'https://cute-puffpuff-a5c980.netlify.app/',
+  },
+
+  {
     imgSrc: project1,
     imgSrcSet: `${project1} 1x, ${project1Retina} 2x`,
     alt: 'Task-Pro',
@@ -95,14 +104,6 @@ const projects = [
     alt: 'English-excellence-webservice',
     tech: 'React, JavaScript, Node JS, Git',
     description: 'vyshyvanka vibes Landing Page',
-    link: '#',
-  },
-  {
-    imgSrc: project10,
-    imgSrcSet: `${project10} 1x, ${project10Retina} 2x`,
-    alt: 'starlight-studio-landing-page',
-    tech: 'React, JavaScript, Node JS, Git',
-    description: 'starlight studio landing page',
     link: '#',
   },
 ];
