@@ -107,7 +107,7 @@ const projects = [
     link: '#',
   },
 ];
-const projectsPerPage = 3;
+const projectsPerPage = 4;
 let currentPage = 0;
 const projectsUl = document.querySelector('.projects-ul');
 const loadMoreBtn = document.querySelector('.btn-load-more');
